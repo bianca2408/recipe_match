@@ -1,6 +1,10 @@
 {
   "hosting": {
-    "public": "recipe-match",
+    "public": "",
+    "github": {
+      "repo": "bianca2408/recipe_match",
+      "branch": "main" 
+    },
     "ignore": [
       "firebase.json",
       "**/.*",
