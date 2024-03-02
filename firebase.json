@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "",
+    "public": "public",
     "github": {
       "repo": "bianca2408/recipe_match",
       "branch": "main" 
@@ -13,7 +13,7 @@
     "rewrites": [
       {
         "source": "**",
-        "destination": "/App.js"
+        "destination": "recipe-match/App.js"
       }
     ]
   }
