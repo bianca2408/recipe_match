@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build",
+    "public": "recipe-match/src",
     "ignore": [
       "firebase.json",
       "**/.*",
