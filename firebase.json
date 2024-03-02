@@ -1,10 +1,16 @@
 {
   "hosting": {
-    "public": "recipe-match/src",
+    "public": "recipe-match",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/App.js"
+      }
     ]
   }
 }
